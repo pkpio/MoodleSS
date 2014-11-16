@@ -30,3 +30,5 @@ for site in soup.find_all('li'):
 			f.write(site.to_JSON() + ',')
 
 f.write(']')
+f = open('moodles.txt', 'r')
+print f.read()
